@@ -1,7 +1,6 @@
-dnf module disable nodejs -y
-dnf module enable nodejs:20 -y
+source ./commom.sh
 
-dnf install nodejs -y
+NODEJS
 
 cp cart.service /etc/systemd/system/cart.service
 
