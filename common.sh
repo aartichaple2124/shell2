@@ -48,7 +48,7 @@ JAVA() {
   APP_PREREQ
 
   mvn clean package
-  mv target/shipping-1.0.jar $app_name.jar
+  mv target/$app_name-1.0.jar $app_name.jar
 
   SYSTEMD
 
